@@ -1,0 +1,302 @@
+*{
+    font-family: tahoma;
+    color: white;
+}
+
+body{
+    background-color: #752020;
+    margin: 0;
+}
+#header-img{
+    width: 250px;
+}
+.banner-container{
+    background-color: #990101;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+#logo-container{
+    width: 250px;
+    background-color: white;
+    border-radius: 11px;
+}
+
+.banner-container a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navigation-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#second-container{
+    margin: 10px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sub-second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-bulletin{
+    width: 900px;
+    border-radius: 5px;
+    
+}
+
+#government-seal{
+    display: flex;
+    margin:auto;
+    gap: 10px;
+}
+#government-seal img{
+    width: 100px;
+    height: 100px;
+}
+
+
+#search-container{
+    background-color: white;
+    border: #990101 solid;
+    border-radius: 50px;
+    width: 300px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+#search-container img{
+    margin-left: auto;
+}
+#banner{
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+#sub-third-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#sub-third-container img{
+    width: 60px;
+
+}
+
+
+#sub-third-container span{
+    color: black;
+    font-size: 10px;
+}
+#sub-third-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: flex-start;
+    gap: 20px;  
+}
+#third-container{
+    display: flex;
+    margin: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+#trademark{
+    margin-top: 10px;
+}
+#trademark img{
+    width: 300px;
+    border-radius: 10px
+}
+#sub2-third-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+#online-service-container{
+    display: flex;
+    width: 100%;
+}
+#online-service-container img{
+    width: 63px;
+}
+#online-service-container span{
+    color: black;
+    font-size: 10px;
+}
+#online-service-container a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#online-service-container div{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+#online-service-container>div>span {
+    color: #990101;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+    
+#header {
+    color: #990101;
+    font-weight: bold;
+    width: 40%;
+    border-bottom: solid #990101   ;
+
+    text-align: center;
+}
+
+#fourth-container{
+    display: flex;
+    justify-content: space-around;
+}
+iframe{
+    border: #990101 solid;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#sub-fourth-container{
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+#sub-fourth-container span{
+    color: #990101;
+    font-weight: bold;
+}
+#sub-fourth-container img{
+    border-radius: 10px;
+}
+#sub-fourth-container>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#sub-fourth-container>div>img{
+    width: 95%;
+    border-radius: 10px
+}
+#sub-fourth-container>div>a>img{
+    width: 95%;
+    border-radius: 10px
+}
+#span-header{
+    color: #990101;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+}
+footer span, b, p{
+    font-size: 12px;
+    text-align: justify;
+    color: black;
+    line-height: 16px;
+}
+#footer-container{
+    margin-top: 20px;
+    display: flex;
+    background-color: #702c2c59;
+    -webkit-backdrop-filter: blur();
+    backdrop-filter: blur(4px);
+    padding: 10px;
+}
+
+footer{
+    background-image: url(../Assets/bataan-peninsula-state-university.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+
+#logo{
+    width: 400px;
+}
+#gov{
+    width: 150px;
+    
+}
+#container-logo{
+    background-color: rgba(255, 255, 255, 0.342);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+#gov-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding-top: 90px;
+}
+#gov-container p{
+    line-height: 20px;
+}
+
+#footer-a{
+    color: black;
+    text-decoration: none;
+}
+#transparency-seal{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.item-page-title{
+    text-align: left;
+    font-size: 25px;
+}
+
+.item-page{
+    color: black;
+    font-size: 13px;
+    text-align: left;
+    
+}
+.item-page li{
+    color: black;
+}
+
+.item-page strong{
+    color: black;
+}
